@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!------------------------------------------- Introduction in web development ---------------------------------------------------------->
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>my data form</title>
+  <link rel="shortcut icon" href="./assets/Test-1.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300&display=swap" rel="stylesheet"> -->
+
+  <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+  <!--font awasome icons-->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
+  <!--my css file-->
+  <!-- <link rel="stylesheet" href="./css/style.css"> -->
+
+  <!---------- First method in form code ------------>
+
+</head>
+
+
+<body>
+  <div class="container">
+    <h1 class="form-title">Registration</h1>
+    <form action="./index.html">
+      <div class="main-user-info">
+        <!----------------------------------- fullname ------------------------------->
+        <div class="user-input-box">
+          <label for="fullname">full name</label>
+          <input type="text" name="fullname" id="fullname" placeholder="fullname" />
+        </div>
+
+        <!-----------------------------------Open Username ------------------------------->
+        <div class="user-input-box">
+          <label for=" Username">Username</label>
+          <input type="text" name="Username" id="Username" placeholder="Username" />
+        </div>
+        <!----------------------------------/Open Username ------------------------------->
+
+        <!----------------------------------- Email ------------------------------->
+        <div class="user-input-box">
+          <label for="Email">Email</label>
+          <input type="email" name="Email" id="Email" placeholder="Email" />
+        </div>
+        <!----------------------------------/ Email ------------------------------->
+
+        <!-----------------------------------Phone Number ------------------------------->
+        <div class="user-input-box">
+          <label for="phonenumber">phone number</label>
+          <input type="number" name="number" id="number" placeholder="Enter your number" />
+        </div>
+        <!----------------------------------/Phone Number ------------------------------->
+
+        <!----------------------------------Password ------------------------------->
+        <div class="user-input-box">
+          <label for="password">password</label>
+          <input type="password" name="password" id="password" placeholder="Enter password" />
+        </div>
+        <!----------------------------------Password ------------------------------->
+
+        <!----------------------------------Confirm Password ------------------------------->
+        <div class="user-input-box">
+          <label for="Confirmpassword">Confirm password</label>
+          <input type="password" name="Confirmpassword" id="Confirmpassword" placeholder="Confirm password" />
+        </div>
+        <!----------------------------------Confirm Password ------------------------------->
+      </div>
+
+      <div class="gender-details-box">
+        <span class="gender-title">Gender</span>
+        <div class="gender-category">
+          <input type="radio" name="gender" id="male">
+          <label for="male">male</label>
+          <input type="radio" name="gender" id="female">
+          <label for="female">female</label>
+          <input type="radio" name="gender" id="gender">
+          <label for="none">none</label>
+        </div>
+      </div>
+
+      <div class="form-submit-btn">
+        <!-- <input onclick="press()" id="btn" type="submit" value="Register"> -->
+
+        <input type="submit" id="btn">
+      </div>
+
+      <script src="./main.js"></script>
+    </form>
+  </div>
+</body>
+
+</html>
+
+<!------------------------------------------------- Introduction in web development ---------------------------------------------------------->
